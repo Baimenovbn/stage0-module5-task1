@@ -64,6 +64,7 @@ public class ArrayTasks {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == number) {
                 index = i;
+                break;
             }
         }
 
